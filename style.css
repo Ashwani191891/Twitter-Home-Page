@@ -1,0 +1,71 @@
+.nav_bar{
+    height: 100vh;
+    align-items: center;
+    top: 0;
+}
+
+.profile_icon{
+    bottom: 30px;
+}
+
+.pro_img{
+    border-radius: 50%;
+}
+
+.text_area, .text_area:active{
+    border: none;
+    outline-width: 0;
+    resize: none;
+}
+
+.text_area::-webkit-scrollbar{
+    display: none;
+}
+
+.srch{
+    width: 80%;
+    border: 1px solid blue;
+    border-radius: 20px;
+}
+
+#srch{
+    width: 80%;
+    outline-width: 0;
+    border: none;
+}
+
+.promot, .promot:hover, .promot:active{
+    text-decoration: none;
+    color: black;
+}
+
+.happening, .follow{
+    background-color: rgba(188, 193, 197, 0.183);
+    border-radius: 20px;
+}
+
+.event:hover{
+    background-color: rgba(210, 246, 225, 0.479);
+}
+
+.folo, .folo_btn, .folo:hover{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 500;
+    width: 80px;
+}
+
+.show_more{
+    text-decoration: none;
+}
+
+.foot, .copy{
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.foot:hover{
+    text-decoration: underline;
+}
